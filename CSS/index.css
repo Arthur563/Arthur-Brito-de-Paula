@@ -1,0 +1,159 @@
+/* Estilizando o cabeçalho */
+header {
+    background-color: #504fff; /* Cor de fundo */
+    border-bottom: 10px solid rgb(56, 56, 56); /* borda inferior sólida */
+    padding-left: 20px ; /* espaçamento na esquerda */
+    padding-top: 10px; /* espaçamento no topo */
+    padding-bottom: 10px; /* espaçamento em baixo */
+    margin-bottom: 30px; /* margem  inferior */
+}
+
+/* Estilizando o elemento nav */
+nav {
+    display: flex; /* Layout flexível */
+    justify-content: center; 
+    align-items: center;
+    gap: 10px; /* Espaço entre os itens dentro do nav */
+    
+}
+
+/* Estilos aplicados aos links com a seguinte classe */
+.header-link {
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Sarala", Helvetica, sans-serif;
+    text-decoration: none; /* remove o sublinhado padrão dos links */
+    display: inline-block; /* bloco inline */
+    background-color: #a1a1ff;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 2px rgb(56, 56, 56);
+    border-radius: 5px;
+    margin-right: 200px;
+}
+
+/* Estilos aplicados ao elemento com o ID #button1 */
+#button1 {
+    margin-right: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* Cor de fundo clara para o corpo */
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF; /* Cor de fundo branca para o container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para adicionar profundidade */
+}
+
+h1 {
+    color: #504FFF; /* Azul profundo para títulos principais */
+    border-bottom: 2px solid #A1A1FF; /* Linha azul clara abaixo dos títulos */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4A90E2; /* Azul médio para subtítulos */
+    margin-top: 20px;
+    border-bottom: 1px solid #4A90E2; /* Linha azul médio abaixo dos subtítulos */
+    padding-bottom: 5px;
+}
+
+p {
+    color: #333; /* Texto em cinza escuro para melhor leitura */
+    margin: 0 0 20px 0; /* Margem inferior */
+    text-align: justify;
+}
+
+
+
+ul{
+    padding: 0;
+    margin-left: 25px; /* Indentação para sub-listas */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #4A90E2; /* Azul médio para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse sobre o link */
+}
+
+.portfolio-link {
+    font-weight: bold; /* Destaca o link do portfólio */
+}
+
+/* Estilização do formulário */
+form {
+    background: #4a90e2;
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 1px 2px #ccc; /* sombra */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre campos */
+    margin: 0 auto;
+    padding: 20px; /* Espaçamento interno */
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Estilização dos inputs, textearea e botão do formulário */
+input, textarea, button {
+    background-color: #f7f7f7;
+    border: none; /* remove a borda*/
+    border-radius: 5px;
+    color: #777;
+    font-size: 18px;
+    outline: none; /* remove o contorno */
+    padding: 20px;
+    width: 100%;
+    max-width: 90%;
+    margin: 5px 0;
+}
+
+/* Estilizando o botão */
+button {
+    cursor: pointer;
+    font-weight: bold;
+    max-width: none;
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 20px; /* Margem superior */
+}
+
+/* Estilizando os parágrafos dentro do rodapé */
+footer p {
+    margin: 0; /* Remove a margem padrão */
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+}
+
+/* Estilizando links dentro do rodapé */
+footer a {
+    color: #FFF;
+    text-decoration: underline;
+}
